@@ -1,14 +1,15 @@
 services:
-  producer:
-    build: ./producer
+  app-1:
+    build: ./app-1
     depends_on:
       rabbitmq:
         condition: service_healthy
 
-  # consumer:
-  #   build: ./consumer
-  #   depends_on:
-  #     - rabbitmq
+  app-2:
+    build: ./app-2
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
   rabbitmq:
     image: rabbitmq:4-management
     container_name: rabbitmq

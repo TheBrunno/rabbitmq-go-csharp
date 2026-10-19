@@ -6,8 +6,8 @@ Comunicação assíncrona entre duas aplicações independentes utilizando Rabbi
 
 ## Integrantes
 
-- **Nome:** Caio Sousa — **RA:** [PREENCHER RA]
-- **Nome:** Bruno Oliveira — **RA:** [PREENCHER RA]
+- **Nome:** Caio Sousa — **RA:** 04251101
+- **Nome:** Bruno Oliveira — **RA:** 04251037
 
 ## Estrutura do Projeto
 
